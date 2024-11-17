@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Success</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!--name-->
+    <div class="contact-form">
+      <h1>Contact Us</h1>
+      <form id="contact-form">
+        <div class="form-item">
+          <div class="first-name">
+            <label for="first-name"
+              >First Name <span class="star">*</span></label
+            >
+            <input type="text" name="first-name" id="first-name" />
+          </div>
+          <!--lastname-->
+          <div class="last-name">
+            <label for="last-name">Last Name <span class="star">*</span></label>
+            <input type="text" name="last-name" id="last-name" />
+          </div>
+        </div>
+        <!--email-->
+        <div class="form-item">
+          <label for="email">Email Adress <span class="star">*</span></label>
+          <input type="email" name="email" id="email" />
+        </div>
+        <!--query type 1-->
+        <div class="form-item">
+          <label for="query-type">Query Type <span class="star">*</span></label>
+          <div class="radio-type">
+            <div class="radio-options">
+              <input
+                type="radio"
+                name="query-type"
+                id="general-enquery"
+                value="general-enquery"
+              />
+              <label for="general-enquery">General Enquery </label>
+            </div>
+            <!--query type 2-->
+            <div class="radio-options">
+              <input
+                type="radio"
+                name="query-type"
+                id="support-request"
+                value="support-request"
+              />
+              <label for="support-request">Support Request </label>
+            </div>
+          </div>
+        </div>
+        <!--message-->
+        <div class="form-item">
+          <label for="message">Message <span class="star">*</span></label>
+          <textarea name="Message" id="message" rows="4"></textarea>
+        </div>
+        <!--checkbox-->
+        <div class="form-item">
+          <div>
+            <input type="checkbox" name="consent" id="consent" />
+            <label for="consent"
+              >I consent to being contacted by the team<span>*</span></label
+            >
+          </div>
+        </div>
+        <!--button-->
+        <button type="submit" id="btn-submit" class="btn-submit">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>
