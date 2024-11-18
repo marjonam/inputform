@@ -112,7 +112,6 @@ input:focus {
   padding-right: 6rem;
   padding-bottom: 1rem;
   padding-top: 1rem;
-  transition: 0.3s;
 }
 
 .btn-submit {
@@ -130,4 +129,11 @@ input:focus {
 .btn-submit:hover {
   cursor: pointer;
   background-color: #063e34;
+}
+
+.form-item .checkbox {
+  display: flex;
+  gap: 1.6rem;
+  font-size: 1rem;
+  margin-bottom: 4rem;
 }
